@@ -82,9 +82,6 @@ animal_to_fact = {
     'narwhal': 'Narwhal tusks are really an "inside out" tooth.'
 }
 
-#!!!!!!!!!!!!! NEED HELP DISPLAYING ANIMAL FACTS IN HTML PAGE AND IN CONTEXT DICT.!!!!
-#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
 
 @ app.route('/animal_facts')
 def animal_facts():
