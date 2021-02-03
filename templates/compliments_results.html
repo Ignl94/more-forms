@@ -1,13 +1,19 @@
 {% extends 'base.html' %}
-
-{% block title %}
-Compliments Results
-{% endblock %}
-
+<!-------------- -->
+{% block title %} Compliments Results {% endblock %}
+<!-------------- -->
 {% block content %}
 
 <!-- Your HTML code goes here! -->
-
-
-
+<h2>Hello there {{name}}!</h2>
+<br />
+<!-------------- -->
+{% if wantsCompliments == 'yes' %}
+<ul>
+  {% for compliment in complimentsList %}
+  <li>{{compliment}}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+<!------------- -->
 {% endblock %}
